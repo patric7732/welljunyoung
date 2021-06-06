@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Junyoung</title>
+    <link rel="SHORTCUT ICON" href="images/logo.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" width="60"></a>
+        </div>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+                    <li><a href="project.html">TEAM PROJECT</a></li>
+                    <li class="current"><a href="portfolio.html">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="mnav">
+            <div class="ham-btn" onclick="showNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="link">
+                    <a href="profile.html">PROFILE</a>
+                </div>
+                <div class="link">
+                    <a href="project.html">TEAM PROJECT</a>
+                </div>
+                <div class="link">
+                    <a href="portfolio.html">PORTFOLIO</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="fort">
+
+            <div class="port1">
+                <h1>MY PROJECT</h1>
+            </div>
+
+            <div id="flex-container" class="testimonials">
+                <div id="left-zone">
+                    <ul class="list">
+                        <li class="item">
+                            <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
+                            <label class="label_testimonial-1" for="radio_testimonial-1">전준영의 개인 사이트</label>
+                            <div class="content-test content_testimonial-1">
+                                <span class="picto"></span>
+                                <h1>첫번째 전준영의 개인 사이트</h1>
+                                <p>“중간고사 과제로 제작한 전준영의 개인 사이트 입니다.”</p>
+                                <a href="https://strongjunyoung.netlify.app/index.html" target="_blank">-CLICK-<i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
+                            <label class="label_testimonial-2" for="radio_testimonial-2">김준현과 아이들의 게임채널</label>
+                            <div class="content-test content_testimonial-2">
+                                <span class="picto"></span>
+                                <h1>김준현과 아이들의 개임채널</h1>
+                                <p>“기말고사 과제로 제작한 다양한 장르의 게임들을 소개하는 사이트 입니다.”</p>
+                                <a href="https://kimandboys.netlify.app/" target="_blank">-CLICK-<i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
+                            <label class="label_testimonial-3" for="radio_testimonial-3">수정된 전준영의 개인 사이트</label>
+                            <div class="content-test content_testimonial-3">
+                                <span class="picto"></span>
+                                <h1>두번째 전준영의 개인 사이트</h1>
+                                <p>“첫번째 개인사이트를 업데이트 한 사이트 입니다.”</p>
+                                <a href="index.html">-CLICK-<i class="fas fa-angle-right"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div id="right-zone"></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

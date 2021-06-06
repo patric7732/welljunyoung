@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PROFILE</title>
+    <link rel="SHORTCUT ICON" href="images/logo.png">
+</head>
+
+<body>
+    <header>
+        <div class="video1">
+            <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                <source src="images/home.mp4">
+            </video>
+        </div>
+
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" width="60"></a>
+        </div>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+                    <li class="current"><a href="project.html">TEAM PROJECT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="mnav">
+            <div class="ham-btn" onclick="showNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="link">
+                    <a href="profile.html">PROFILE</a>
+                </div>
+                <div class="link">
+                    <a href="project.html">TEAM PROJECT</a>
+                </div>
+                <div class="link">
+                    <a href="portfolio.html">PORTFOLIO</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <div class="main">
+
+        <section class="show1">
+            <h1>TEAM PROJECT</h1>
+
+        </section>
+        <div class="int2">
+            <p>김준현과 아이들의 게임 채널</p>
+        </div>
+
+        <div class="intimg">
+            <div class="fps">
+                <button class="fpsbtn">
+                    <img src="images/5.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </button>
+            </div>
+
+            <div class="spo">
+                <button class="spobtn">
+                    <img src="images/3.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </button>
+            </div>
+            <div class="aos">
+                <button class="aosbtn">
+                    <img src="images/1.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </button>
+            </div>
+            <div class="rpg">
+                <button class="rpgbtn">
+                    <img src="images/4.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </button>
+            </div>
+            <div class="msc">
+                <button class="mscbtn">
+                    <img src="images/2.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </button>
+            </div>
+        </div>
+
+        <div class="fpsshow">
+            <div class="clsbtn">
+                <button class="cls1"><img src="images/cancel.png" alt=""></button>
+            </div>
+            <div class="show2">
+                <img class="jeon" src="images/jeon.png" alt="">
+                <div class="show3">
+                    <h1>전준영의 FPS 장르 게임 소개</h1>
+                    <p> 담당 : 전준영</p>
+                    <P class="fpsint1"> 역할 : FPS 게임 사이트 구축</P>
+                    <p class="fpsint2"> 팀프로젝트 메인 구축</p>
+
+                    <p><a href="https://kimandboys.netlify.app/fps/fps.html" target="_blank">-FPS SITE-<i
+                                class="fas fa-angle-right"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sposhow">
+            <div class="clsbtn2">
+                <button class="cls2"><img src="images/cancel.png" alt=""></button>
+            </div>
+            <div class="show2">
+                <img class="jung" src="images/jung.png" alt="">
+                <div class="show3">
+                    <h1>정민재의 SPORTS 장르 게임 소개</h1>
+                    <p> 담당 : 정민재</p>
+                    <P class="spoint1"> 역할 : SPORTS 게임 사이트 구축</P>
+                    <p class="spoint2"> 자료조사</p>
+
+                    <p><a href="https://kimandboys.netlify.app/sports/sports.html" target="_blank">-SPORTS SITE-<i
+                                class="fas fa-angle-right"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="aosshow">
+            <div class="clsbtn3">
+                <button class="cls3"><img src="images/cancel.png" alt=""></button>
+            </div>
+            <div class="show2">
+                <img class="choi" src="images/choi.png" alt="">
+                <div class="show3">
+                    <h1>최병준의 SPORTS 장르 게임 소개</h1>
+                    <p> 담당 : 최병준</p>
+                    <P class="aosint1"> 역할 : AOS 게임 사이트 구축</P>
+                    <p class="aosint2"> 미디어 쿼리 구축</p>
+
+                    <p><a href="https://kimandboys.netlify.app/aos/aos.html" target="_blank">-AOS SITE-<i
+                                class="fas fa-angle-right"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="rpgshow">
+            <div class="clsbtn4">
+                <button class="cls4"><img src="images/cancel.png" alt=""></button>
+            </div>
+            <div class="show2">
+                <img class="kimj" src="images/kimj.png" alt="">
+                <div class="show3">
+                    <h1>김준현의 RPG 장르 게임 소개</h1>
+                    <p> 담당 : 김준현</p>
+                    <P class="rpgint1"> 역할 : RPG 게임 사이트 구축</P>
+                    <p class="rpgint2">게임 사이트 메인 구축</p>
+
+                    <p><a href="https://kimandboys.netlify.app/rpg/rpg.htmll" target="_blank">-RPG SITE-<i
+                                class="fas fa-angle-right"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="mscshow">
+            <div class="clsbtn5">
+                <button class="cls5"><img src="images/cancel.png" alt=""></button>
+            </div>
+            <div class="show2">
+                <img class="kimc" src="images/kimc.png" alt="">
+                <div class="show3">
+                    <h1>김찬욱의 RHYTHM 장르 게임 소개</h1>
+                    <p> 담당 : 김찬욱</p>
+                    <P class="mscint1"> 역할 : RHYTHM 게임 사이트 구축</P>
+                    <p class="mscint2">자료 조사</p>
+
+                    <p><a href="https://kimandboys.netlify.app/mvc/rhythm.html" target="_blank">-RHYTHM SITE-<i
+                                class="fas fa-angle-right"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <section id="slider">
+
+            <!-- <input type="radio" name="slider" id="s1" checked>
+            <input type="radio" name="slider" id="s2">
+            <input type="radio" name="slider" id="s3">
+            <input type="radio" name="slider" id="s4">
+            <input type="radio" name="slider" id="s5">
+
+            <label for="s1" id="slide1"><img src="images/fps.png" alt=""></label>
+            <label for="s2" id="slide2"><img src="images/sports.png" alt=""></label>
+            <label for="s3" id="slide3"><img src="images/rpg.png" alt=""></label>
+            <label for="s4" id="slide4"><img src="images/rhythm.png" alt=""></label>
+            <label for="s5" id="slide5"><img src="images/aos.png" alt=""></label> -->
+        </section>
+
+        <!-- 
+        <section class="introduce">
+            <div class="int1">
+                <h1>KAB, KIM AND BOYS</h1>
+            </div>
+            .
+            <div class="jeon">
+                <img src="images/jeon.png" width="250px" alt="">
+                <div class=jeon1>
+                    <p>이름 : 전준영</p>
+                    <P>직급 : 팀장</P>
+                    <p>역할 : CSS 관리</p>
+                    <p>장르 : FPS.GC <br>(슈팅 게임 장르에 대한 뉴스 등 정보 전달)</p>
+                </div>
+            </div>
+
+            <div class="jung">
+                <img src="images/jung.png" width="250px" alt="">
+                <div class=jung1>
+                    <p>이름 : 정민재</p>
+                    <P>직급 : 팀원</P>
+                    <p>역할 : CSS 관리</p>
+                    <p>장르 : SPO.GC <br>(스포츠 게임 장르에 대한 뉴스 등 정보 전달)</p>
+                </div>
+            </div>
+
+            <div class="choi">
+                <img src="images/choi.png" width="250px" alt="">
+                <div class=choi1>
+                    <p>이름 : 최병준</p>
+                    <P>직급 : 팀원</P>
+                    <p>역할 : JAVA SCRIPT 관리</p>
+                    <p>장르 : AOS.GC <br>(AOS 게임 장르에 대한 뉴스 등 정보 전달)</p>
+                </div>
+            </div>
+
+            <div class="kimj">
+                <img src="images/kimj.png" width="250px" alt="">
+                <div class=kimj1>
+                    <p>이름 : 김준현</p>
+                    <P>직급 : 팀원</P>
+                    <p>역할 : HTML 관리</p>
+                    <p>장르 : RPG.GC <br>(RPG 게임 장르에 대한 뉴스 등 정보 전달)</p>
+                </div>
+            </div>
+
+            <div class="kimc">
+                <img src="images/kimc.png" width="250px" alt="">
+                <div class=kimjc>
+                    <p>이름 : 김찬욱</p>
+                    <P>직급 : 팀원</P>
+                    <p>역할 : JAVA SCRIPT 관리</p>
+                    <p>장르 : RTM.GC <br>(리듬 게임 장르에 대한 뉴스 등 정보 전달)</p>
+                </div>
+            </div>
+
+        </section> -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
