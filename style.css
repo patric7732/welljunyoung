@@ -244,6 +244,103 @@ header li {
   font-size: 30px;
 }
 
+
+.chart1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; 
+  height: 400px;
+  animation:
+  fadeIn .25s 3s ease-in both;
+}
+
+.chartint h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+  animation:
+  fadeIn .25s 2.5s ease-in both;
+}
+
+.chart1 p {
+  font-size: 40px;
+  margin: 0;
+}
+
+.chart {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 20px;
+  width: 600px;
+  margin: 10px;
+}
+  .chart span {
+    font-size: 20px;
+      margin-left: 5px;
+      color: #fff;
+      font-weight: bolder;
+  }
+
+.bar {
+  animation: load 3s normal forwards;
+  border-radius: 50px;
+  background: rgb(255, 85, 85);
+  height: 20px;
+  width: 0;
+} 
+
+.bar1 {
+  animation: load1 3s normal forwards;
+  border-radius: 50px;
+  background: rgb(125, 96, 255);
+  height: 20px;
+  width: 0;
+}
+
+.bar2 {
+  animation: load2 3s normal forwards;
+  border-radius: 50px;
+  background: rgb(255, 237, 78);
+  height: 20px;
+  width: 0;
+} 
+
+@keyframes load {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 25%;
+  }
+}
+
+@keyframes load1 {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 20%;
+  }
+}
+
+@keyframes load2 {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 5%;
+  }
+}
+
+
+/* ======================================= */
+
+
+
 video {
   position: absolute;
   opacity: 0.4;
@@ -254,16 +351,27 @@ video {
 .int2 {
   position: relative;
   text-align: center;
-  font-size: 40px;
   animation:
     slideUp 0.75s .4s cubic-bezier(0.17,.88,.32,1.27) both,
     fadeIn .25s 1.5s ease-in both;
 }
 
+
 .int2 p {
   margin: 120px 0 0 0;
   font-family: 'Black Han Sans', sans-serif;
   font-size: 90px;
+}
+
+.int2 a {
+  color: rgba(255, 255, 255, 0.692);
+  text-decoration: none;
+  font-size: 50px;
+  margin: 0;
+}
+
+.int2 a:hover {
+  color: rgb(255, 255, 255);
 }
 
 .intimg {
@@ -470,6 +578,14 @@ video {
 .mscint2 {
   padding-left: 60px;
 }
+
+
+.teamhome h1 {
+ position: relative;
+ justify-content: center;
+
+}
+
 /* team ------------------------------------------*/
 
 .fort {
@@ -859,17 +975,22 @@ label.label_testimonial-3:before {
   .show3 {
     width: 370px;
   }
-}
-.show2 {
-  margin: 0;
-}
-  
-.show3 h1 {
-  font-size: 28px;
-}
 
-.show3 a {
+ .show2 {
+  margin: 0;
+ }
+  
+ .show3 h1 {
+  font-size: 28px;
+ }
+
+ .show3 a {
   margin-left: 60px;
+ }
+ .chart {
+   width: 300px;
+   transition: all 0.5s;
+ }
 }
 
   
@@ -923,7 +1044,14 @@ label.label_testimonial-3:before {
 @media screen and (max-width: 480px){
   .int2 p{
     font-size: 32px;
-    margin-bottom: 230px;
+    margin-top: 150px;
+    margin-bottom: 0;
+  }
+
+  .int2 h1{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 120px;
   }
 }
 
